@@ -1,0 +1,126 @@
+html {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+body {
+	background: linear-gradient(to bottom right, #22c1c3, #62fd2d) fixed;
+}
+
+main {
+	position: relative;
+	top: 100px;
+	border-radius: 40px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 10px 10px 30px black;
+	height: 500px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+input {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height: 80%;
+	width: 70%;
+	border: 1px solid darkgray;
+	margin-top: 3px 0 0 0;
+	outline: none;
+	border-right: none;
+	padding-left: 8px;
+	padding-right: 0;
+
+	margin-right: 0;
+}
+
+button {
+	position: relative;
+	right: 5px;
+	height: 87%;
+	border: 1px solid darkgray;
+	background-color: #f7b71d;
+	color: white;
+	font-weight: bold;
+	margin: 4px 0 0 0;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	cursor: pointer;
+	outline: none;
+	transition: all 200ms linear;
+}
+
+button:hover {
+	background-color: #ffa600;
+}
+
+.title {
+	background: url('./images/title-background.jpg') no-repeat center;
+	width: 100%;
+	height: 20%;
+	text-align: center;
+	color: white;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+.title h2 {
+	position: relative;
+	top: 15px;
+}
+
+.task-input {
+	border-bottom: 1px solid gray;
+	height: 12%;
+}
+
+.list {
+	height: 68%;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.list-entry {
+	text-align: left;
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.entry-text {
+	color: black;
+	margin-left: 5%;
+	font-family: 'Poppins';
+	font-size: 14px;
+}
+
+.icons {
+	margin-right: 5%;
+}
+.icons * {
+	height: 35%;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all 100ms linear;
+	margin: 2px;
+}
+
+.task {
+	height: 10%;
+	width: 100%;
+	border-bottom: 1px solid gray;
+	margin: 0px;
+}
+
+.fa-check:hover {
+	color: green;
+}
+
+.fa-trash:hover {
+	color: red;
+}

@@ -1,0 +1,59 @@
+html {
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	position: fixed;
+	background-color: black;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul li {
+	padding-right: 10px;
+}
+
+.mobile {
+	display: none;
+}
+.content {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.first {
+	flex: 1;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.first {
+		display: none;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+		width: 100%;
+		align-items: center;
+		z-index: 1;
+	}
+
+	.mobile ul {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}

@@ -1,0 +1,126 @@
+body {
+	background: linear-gradient(to bottom right, #006fff, #00e5e5, #0bff96) fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin-top: 5%;
+	color: whitesmoke;
+	font-weight: 600;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+input {
+	height: 40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 16px;
+	outline: none;
+	overflow-wrap: normal;
+	margin-bottom: 0px;
+	border-bottom: none;
+	color: black;
+}
+
+select {
+	background-color: whitesmoke;
+	margin-top: 0px;
+	width: 95%;
+	height: 25px;
+	border: 3px solid gainsboro;
+	transition: all 300ms linear;
+}
+
+select:hover {
+	background-color: gainsboro;
+	border: 1px solid gray;
+}
+
+table {
+	width: 100%;
+	height: 100%;
+}
+
+button {
+	margin-top: 8%;
+	color: black;
+	width: 35%;
+	height: 15%;
+	border: 1px solid gainsboro;
+	background-color: whitesmoke;
+	border-radius: 3px;
+	transition: all 300ms linear;
+}
+
+button:hover {
+	background-color: gainsboro;
+	border: 1px solid gray;
+}
+.app-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.temperature-container {
+	display: flex;
+	margin-top: 10%;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	height: 350px;
+	width: 450px;
+	margin: auto;
+	background-color: white;
+	margin-top: 5%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	text-align: center;
+	align-items: center;
+}
+
+.conversion * {
+	border-radius: 3px;
+	border: 1px solid gainsboro;
+}
+
+.fa-tint {
+	color: blue;
+}
+
+.fa-cloud {
+	color: gray;
+}
+
+.fa-sun-o {
+	color: tomato;
+}
+
+.fa-snowflake-o {
+	color: silver;
+}
+
+#log {
+	position: relative;
+	right: 7%;
+	overflow: auto;
+}
+
+#calc {
+	position: relative;
+	left: 10%;
+}
+
+#temperature-h2 {
+	margin-top: 2%;
+}
